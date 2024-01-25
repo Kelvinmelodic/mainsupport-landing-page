@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    width: 150px;
+    margin-left: 90px;
+}
+.nav-bar{
+   width: auto;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   background-color: rgba(139, 233, 250, 0.123);
+}
+
+.nav-button{
+    margin: auto 79px;
+   
+}
+.nav-button button{
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: rgb(37, 132, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.nav-button button ul{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul {
+    margin-left: 130px;
+}
+.nav-bar ul li{
+    display: inline;
+    list-style: none;
+    margin: 30px;
+    
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-weight: 800;
+}
+.hero{
+    background-color: rgba(139, 233, 250, 0.123);
+}
+.hero-image img{
+    width: 550px;
+    margin-top: 50px;
+
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    width: 600px;
+    margin: auto 30px; 
+}
+.hero-content h3{
+    font-size: 50px;
+    line-height: 1.3;
+    color: rgb(1, 1, 63);
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+.ul{
+    margin-top: 60px;
+}
+.hero-content ul{
+    margin-top: 20px;
+}
+.hero-content ul li{
+    display: inline;
+    font-size: 20px;
+    margin: 10px;
+
+}
+form{
+  background-color: blue;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: black 1px 8px 8px -6px;
+  margin-top: 30px;
+}
+input{
+    outline: none;
+    padding: 8px;
+    background-color: white;
+    width: 90px;
+    width: 250px;
+    border:none;  
+}
+.hero-button{
+    padding: 12px;
+    background-color:rgb(37, 132, 255);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 800;
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.chats img{
+    width: 70px;
+    
+}
+.chats{
+    padding: 20px;
+    margin: 20px;
+}
+.chats h4{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.chats p{
+    line-height: 1.3;
+    font-size: 20px;
+}
+.chats button{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+}
+.chatsdif img{
+    width: 60px;
+    margin-top: 40px; 
+}
+.chatsdif{
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 4px 6px 8px -9px;  
+}
+.chatsdif h4{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.chatsdif p{
+    line-height: 1.3;
+    font-size: 20px;
+}
+.chatsdif button{
+    padding: 10px;
+    margin-top: 16px;
+    border: none;
+    font-size: 15px;
+}
+.whatsection h3{
+text-align: center;
+font-size: 40px;
+margin-top: 60px;
+color: rgb(1, 1, 63);
+}
+.whatcontainer{
+   margin-top: 90px;
+}
+.whatimage{
+    width: 800px;
+    position: absolute;
+    margin-left: 10%;
+}
+.what-content{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 170px;
+}
+.what-content h6{
+    font-size: 20px;
+}
+.what-content h4{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.what-content p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.team{
+    margin-top: 45%;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    
+}
+.team-image img{
+    width: 500px;
+    margin-left: 100px;
+}
+.team-content{
+   margin-left: 200px;
+   width: 30%;
+
+}
+.team-content h5{
+font-size: 20px;
+}
+.team-content h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.team-content p{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+.team-content button{
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    font-size: 15px;
+    color: rgb(45, 135, 238);
+}
+.people-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people-image img{
+    width: 550px;
+}
+.boxx-one{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: black 6px 8px 8px -10px;
+}
+.boxx-one img{
+    width: 60px; 
+}
+.boxx-one h4{
+    font-size: 22px; 
+}
+.boxx-one p{
+    font-size: 16px;
+    line-height: 1.3;
+}
+.box-one{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: black 6px 8px 8px -9px;
+}
+.box-one h4{
+    font-size: 20px;
+}
+.box-one p{
+    font-size: 15px;
+    line-height: 1.3;
+}
+.box-one img{
+width: 60px;
+}
+.people-image{
+    margin-left: 80px;
+    
+}
+.people-content{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 500px;
+}
+.people-content h5{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.people-content h3{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.people-content .ptext{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.boxone-content {
+    margin-left: 20px;
+}
+.tools-container{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+}
+.tools-image img{
+    width: 500px;
+    margin-left: 100px;
+}
+.tools-content{
+    margin-left: 200px;
+    width: 30%;
+ 
+ }
+ .tools-content h5{
+ font-size: 20px;
+ }
+ .tools-content h3{
+     font-size: 30px;
+     margin-top: 10px;
+ }
+ .tools-content p{
+     font-size: 20px;
+     margin-top: 20px;
+     line-height: 1.3;
+ }
+ .tools-content button{
+     padding: 10px;
+     margin-top: 30px;
+     border: none;
+     font-size: 15px;
+     color: rgb(45, 135, 238);
+     font-weight: 800;
+ }
+ .footersection{
+    background-color:rgba(139, 233, 250, 0.123);
+    padding: 1px;
+    margin-top: 10%;
+ }
+ .footersection h3{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+ }
+ .footersection form{
+   margin-left: 35%;
+ }
+ .footersection.footnav-bar{ 
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: blue
+    
+ }
+ 
+.footlogo{
+    width: 150px;
+    margin-left: 90px;
+}
+.footnav-bar{
+    width: auto;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    
+    }
+    .footnav-bar ul {
+        margin-left: 35%;
+        
+        
+    }
+    .footnav-bar ul li{
+        display: inline;
+        list-style: none;
+        margin: 30px;
+        
+    }
+    .footnav-bar ul li a{
+        text-decoration: none;
+        font-weight: 800;
+    }
